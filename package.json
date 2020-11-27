@@ -1,0 +1,7 @@
+{
+  "name": "Electron",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Bartosz Janiak <janiak.bartosz92@gmail.com>",
+  "license": "MIT"
+}
