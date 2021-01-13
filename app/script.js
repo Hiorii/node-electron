@@ -21,7 +21,7 @@ class App extends React.Component {
 
     step = () => {
         if (this.state.min === 0 && this.state.sec === 0) {
-            this.setState({work:!this.state.work, rest: !this.state.rest});
+            this.setState({work: !this.state.work, rest: !this.state.rest});
             this.playBell();
             if (this.state.work) {
                 this.setState({min: 20, sec: 0});
@@ -31,7 +31,7 @@ class App extends React.Component {
             }
         } else {
             if (this.state.sec === 0) {
-                this.setState({min: this.state.min-1})
+                this.setState({min: this.state.min - 1})
                 this.setState({sec: 59})
             } else {
                 this.setState({sec: this.state.sec - 1})
